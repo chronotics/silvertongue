@@ -5,7 +5,6 @@ import java.io.PrintStream
 import jep.{Jep, SharedInterpreter}
 import org.chronotics.silverbullet.scala.akka.protocol.Message.SendTaskToExecuteNoActorRef
 import org.chronotics.silverbullet.scala.akka.state.{Failed, Finished, NotSatisfied, Working}
-import org.chronotics.silverbullet.scala.akka.util.EnvConfig
 import org.chronotics.silverbullet.scala.kafka.LangEngineOutputListener
 import org.chronotics.silvertongue.scala.util.RedisDataConversion
 import org.rosuda.REngine.REngine
