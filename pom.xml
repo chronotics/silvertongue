@@ -6,7 +6,7 @@
 
     <groupId>org.chronotics</groupId>
     <artifactId>silvertongue</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.3-SNAPSHOT</version>
 
     <repositories>
         <repository>
