@@ -125,6 +125,11 @@
             <artifactId>silverbullet</artifactId>
             <version>${chron.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.chronotics</groupId>
+            <artifactId>pithos-ext-es</artifactId>
+            <version>${chron.version}</version>
+        </dependency>
 
         <!-- R -->
         <dependency>
@@ -148,6 +153,13 @@
             <groupId>black.ninia</groupId>
             <artifactId>jep</artifactId>
             <version>3.8.1</version>
+        </dependency>
+
+        <!-- Websocket -->
+        <dependency>
+            <groupId>org.asynchttpclient</groupId>
+            <artifactId>async-http-client</artifactId>
+            <version>2.5.3</version>
         </dependency>
     </dependencies>
 </project>
