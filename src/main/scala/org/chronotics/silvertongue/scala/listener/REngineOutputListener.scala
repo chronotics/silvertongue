@@ -9,7 +9,7 @@ import org.chronotics.silverbullet.scala.akka.state.Working
 import org.chronotics.silverbullet.scala.akka.util.EnvConfig
 import org.rosuda.REngine.{REngine, REngineStdOutput}
 
-class REngineOutputListenerWithoutActor(strCallback: String, strUserId: String, strRequestId: String, strWorkflowId: String, strTaskId: String, strLibId: String, isUseBufferred: Boolean) extends REngineStdOutput {
+class REngineOutputListener(strCallback: String, strUserId: String, strRequestId: String, strWorkflowId: String, strTaskId: String, strLibId: String, isUseBufferred: Boolean) extends REngineStdOutput {
   val log = LoggerFactory.getLogger(getClass());
   val config = ConfigFactory.parseFile(EnvConfig.getConfigFile("z2_conn")).resolve()
   val topic = config.getString("kafka.topic")
